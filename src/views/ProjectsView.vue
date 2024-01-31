@@ -15,6 +15,7 @@
 <script>
 import 'animate.css'; // Import animate.css styles
 import axios from 'axios';
+import staticProjects from '../projects.json'; // Import your static projects
 
 export default {
   data() {
@@ -31,7 +32,7 @@ export default {
 
       axios.get(apiUrl)
           .then(response => {
-            this.projects = response.data;
+            this.projects = response.data.concat(staticProjects); // Concatenate static projects
             console.log(this.projects);
           })
           .catch(error => {
