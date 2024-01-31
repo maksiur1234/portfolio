@@ -1,12 +1,11 @@
 <template>
   <div class="main-container">
     <div v-for="(project, index) in projects" :key="index" class="project-card animate__animated animate__fadeInUp" :style="{ 'animation-delay': `${index * 0.1}s` }">
-      <h2>{{ project.title }}</h2>
-      <img :src="project.image_path" alt="">
-      <p>{{ project.about }}</p>
+      <h2>{{ project.Title }}</h2>
+      <img :src="project.Image" alt="">
+      <p>{{ project.About }}</p>
       <div class="links">
-        <a :href="project.link"><img src="../assets/github.png" alt=""></a>
-        <a :href="project.link"><img src="../assets/link.png" alt=""></a>
+        <a :href="project.Link"><img src="../assets/github.png" alt=""></a>
       </div>
     </div>
   </div>
@@ -14,8 +13,7 @@
 
 <script>
 import 'animate.css'; // Import animate.css styles
-import axios from 'axios';
-import staticProjects from '../projects.json'; // Import your static projects
+import staticProjects from './projects.json'; // Import your static projects
 
 export default {
   data() {
@@ -24,21 +22,7 @@ export default {
     };
   },
   mounted() {
-    this.getProjects();
-  },
-  methods: {
-    getProjects() {
-      const apiUrl = 'http://localhost:8000/api/projects';
-
-      axios.get(apiUrl)
-          .then(response => {
-            this.projects = response.data.concat(staticProjects); // Concatenate static projects
-            console.log(this.projects);
-          })
-          .catch(error => {
-            console.error('Błąd pobierania projektów:', error);
-          });
-    },
+    this.projects = staticProjects.ProjectsArray;
   },
 };
 </script>
@@ -60,7 +44,7 @@ export default {
 }
 
 .project-card img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
