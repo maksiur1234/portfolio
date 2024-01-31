@@ -1,0 +1,26 @@
+{
+    "ProjectsArray":
+    [
+        {
+            "id": 1,
+            "Title": "Platforma e-commerce",
+            "About": "Rozwinięta platforma e-commerce umożliwiająca użytkownikom łatwe przeglądanie i zakupy. Zintegrowana z różnymi systemami płatności i zapewniająca wygodne zarządzanie produktami.",
+            "Image": "https://dealavo.com/wp-content/uploads/2022/08/woocommerce-1024x506.jpg",
+            "Link": "https://github.com/maksiur1234?tab=repositories"
+        },
+        {
+            "id": 2,
+            "Title": "Aplikacja do zarządzania zadaniami",
+            "About": "Aplikacja webowa umożliwiająca efektywne zarządzanie zadaniami, projektami i harmonogramami. Posiada intuicyjny interfejs użytkownika, dzięki czemu użytkownicy mogą łatwo śledzić postęp i przypisywać zadania.",
+            "Image": "https://flexiproject.pl/wp-content/uploads/2020/10/programy-do-zarzadzania-projektami-monday-1024x591.png",
+            "Link": "https://github.com/maksiur1234?tab=repositories"
+        },
+        {
+            "id": 3,
+            "Title": "Portal społecznościowy dla pasjonatów podróży",
+            "About": "Interaktywny portal społecznościowy, który łączy miłośników podróży. Umożliwia dzielenie się zdjęciami, relacjami z podróży oraz planowaniem przyszłych wypraw. Zbudowany z myślą o społeczności pasjonatów podróży.",
+            "Image": "https://www.travelshops.pl/data/styl_1507731208_blisko-plazy.jpg",
+            "Link": "https://github.com/maksiur1234?tab=repositories"
+        }
+    ]
+}
