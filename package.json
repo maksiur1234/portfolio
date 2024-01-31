@@ -1,4 +1,17 @@
 {
+<<<<<<< HEAD
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "vite": "^5.0.0"
+    }
+=======
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -47,4 +60,5 @@
     "not dead",
     "not ie 11"
   ]
+>>>>>>> cdf7634ed408e5756c7081c06c00b91e65c98065
 }
