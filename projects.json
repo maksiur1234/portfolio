@@ -4,7 +4,16 @@
         {
             "id": 1,
             "Title": "Project 1",
-            "About": "info cos tam bla"
+            "About": "info cos tam bla",
+            "Image": "https://i.stack.imgur.com/PpjE6.png",
+            "Link": ""
+        },
+        {
+            "id": 2,
+            "Title": "Project 2",
+            "About": "info cos tam bla projekt 2",
+            "Image": "https://i.stack.imgur.com/PpjE6.png",
+            "Link": ""
         }
     ]
 }
